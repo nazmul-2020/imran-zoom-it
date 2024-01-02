@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Login</title>
+  <!-- css link -->
+  <link rel="stylesheet" href="../Css File/style.css">
+  <!-- tailwind css CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <!-- flowbite CDN-->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/flowbite/2.2.1/flowbite.min.css" rel="stylesheet" />
+
+
+</head>
+
+<body>
+
+
+  <div class="container">
+    <div class="my-10 ">
+      <img class=" h-12 block mx-auto " src="../images/logo.png" alt="logo">
+    </div>
+
+    <form class="max-w-md mx-auto p-5 border-2 border-red-500 rounded shadow-sm shadow-red-500/50 bg-white">
+
+      <div>
+        <h2 class="text-center text-red-500 text-xl font-bold py-9">Login to Your Account</h2>
+      </div>
+
+      <div class="mb-5">
+        <label for="email" class="block mb-2 text-lg font-bold text-gray-900 dark:text-white">Username/Email</label>
+        <input type="email" id="email"
+          class="shadow-sm bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded focus:ring-blue-200 focus:border-blue-100 block w-full p-2 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500 dark:shadow-sm-light"
+          placeholder="Username/Email" required>
+      </div>
+      <div class="mb-5">
+        <label for="password" class="block mb-2 text-lg font-bold text-gray-900 dark:text-white">Password</label>
+        <input type="password" id="password"
+          class="shadow-sm bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded focus:ring-blue-200 focus:border-blue-100 block w-full p-2 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500 dark:shadow-sm-light"
+          placeholder="******" required>
+      </div>
+
+      <button type="submit" class="text-white bg-green-700 w-full text-center  font-medium rounded  py-2 m  ">Login
+      </button>
+      <p class="my-4 text-blue-600 hover:underline ">Forgot password?</p>
+    </form>
+
+    <div class="text-center my-4">
+      <p>Not registered yet? <a class="text-blue-600 hover:underline" href="./SingUp.html">Signup Here</a> </p>
+    </div>
+
+  </div>
+
+  <footer class="py-3 bg-white">
+    <p class="text-center text-sm text-gray-500">Digital Tools Hut &copy; 2024</p>
+  </footer>
+
+
+  <!-- flowbite script link -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/2.2.1/flowbite.min.js"></script>
+
+</body>
+
+</html>
