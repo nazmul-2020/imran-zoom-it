@@ -9,7 +9,7 @@
     integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
   <!-- css link -->
   <link rel="stylesheet" href="../Css File/style.css">
-  <title>Login</title>
+  <title>Sing Up</title>
 </head>
 
 <body>
@@ -19,25 +19,34 @@
     </div>
 
     <div class="p-4 bg-white mx-auto  border border-2 border-danger rounded shadow-lg form-container">
-      <h4 class="text-center text-danger mb-3 fw-bold">Login to Your Account</h4>
+      <h5 class="text-center text-danger my-3 fw-bold">Please Sign Up</h5>
 
       <form class="">
         <div class="mb-3">
-          <label for="exampleInputEmail1" class="form-label fw-bold">Username/Email</label>
-          <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Username/Email" required>
+          <label for="exampleInputEmail1" class="form-label fw-bold">Full Name</label>
+          <input type="text" class="form-control" id="name" aria-describedby="name" placeholder="Full Name" required>
+        </div>
+        <div class="mb-3">
+          <label for="exampleInputEmail1" class="form-label fw-bold">Username</label>
+          <input type="text" class="form-control" id="name" aria-describedby="name" placeholder="Username" required>
+        </div>
+        <div class="mb-3">
+          <label for="exampleInputEmail1" class="form-label fw-bold">Email</label>
+          <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Email" required> 
+        </div>
+        <div class="mb-3">
+          <label for="exampleInputNumber" class="form-label fw-bold">Phone Number</label>
+          <input type="number" class="form-control" id="number" placeholder="Phone Number" required>
         </div>
         <div class="mb-3">
           <label for="exampleInputPassword1" class="form-label fw-bold">Password</label>
           <input type="password" class="form-control" id="exampleInputPassword1" placeholder="******" required>
         </div>
-        <button type="submit" class="btn btn-success d-block w-100">Submit</button>
-        <div class="my-3">
-          <a class="text-primary" href="#" target="_blank" rel="noopener noreferrer">Forgot password?</a>
-        </div>
+        <button type="submit" class="btn btn-success d-block w-100">Sign Up</button>
       </form>
     </div>
     <div class="my-3 text-center">
-      <p>Not registered yet? <a class="text-primary" href="./singUp.html" rel="noopener noreferrer">Signup Here</a>
+      <p>Not registered yet? <a class="text-primary" href="./login.html" rel="noopener noreferrer">Login Here</a>
       </p>
 
     </div>
