@@ -6,3 +6,21 @@
 body {
     background-color: #FCF0F3;
 }
+
+.form-container{
+    width: 35%;
+}
+
+.logo-img{
+    height: 48px;
+}
+
+
+
+
+@media only screen and (max-width: 550px){
+    .form-container{
+        
+        width: 100%;
+    }
+}
